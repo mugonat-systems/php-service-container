@@ -1,5 +1,5 @@
 {
-  "name": "mugonat/php_service_container",
+  "name": "mugonat/service-container",
   "description": "That is a simple container service",
   "type": "library",
   "version": "dev-0.0.1",
