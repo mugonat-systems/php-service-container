@@ -1,0 +1,27 @@
+{
+  "name": "mugonat/php_service_container",
+  "description": "That is a simple container service",
+  "type": "library",
+  "version": "dev-0.0.1",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "joech",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "psr/container": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mugonat\\Container\\": "src/",
+      "Mugonat\\Container\\Example\\": "example/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  }
+}
+
