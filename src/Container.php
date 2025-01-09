@@ -76,6 +76,18 @@ class Container implements ContainerInterface
         return isset($item);
     }
 
+    /**
+     * Checks if a service with the specified identifier exists in the container.
+     *
+     * @param string $id The identifier of the service to check.
+     *
+     * @return bool True if the service exists, false otherwise.
+     */
+    public function exists(string $id): bool
+    {
+        return isset($this->services[$id]);
+    }
+
     public function set(string $key, $value): Container
     {
         $this->services[$key] = $value;
