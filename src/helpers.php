@@ -3,7 +3,7 @@
 namespace Mugonat\Container;
 
 use Exception;
-use Psr\Container\ContainerExceptionInterface;
+use Mugonat\Container\Interfaces\ContainerExceptionInterface;
 
 if(!function_exists('dependency')) {
     /**

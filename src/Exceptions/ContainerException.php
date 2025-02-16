@@ -2,7 +2,7 @@
 
 namespace Mugonat\Container\Exceptions;
 
-use Psr\Container\ContainerExceptionInterface;
+use Mugonat\Container\Interfaces\ContainerExceptionInterface;
 use Exception;
 
 /**

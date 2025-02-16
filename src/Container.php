@@ -2,10 +2,10 @@
 
 namespace Mugonat\Container;
 
-use Psr\Container\ContainerExceptionInterface;
-use Psr\Container\ContainerInterface;
+use Mugonat\Container\Interfaces\ContainerExceptionInterface;
+use Mugonat\Container\Interfaces\ContainerInterface;
 use Mugonat\Container\Exceptions\NotFoundException;
-use Psr\Container\NotFoundExceptionInterface;
+use Mugonat\Container\Interfaces\NotFoundExceptionInterface;
 use ReflectionClass;
 use ReflectionException;
 

@@ -5,7 +5,6 @@
       <sourceFolder url="file://$MODULE_DIR$/example" isTestSource="false" packagePrefix="Mugonat\Container\Example\" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" packagePrefix="Mugonat\Container\" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/container" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
