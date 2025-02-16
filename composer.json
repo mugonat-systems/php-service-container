@@ -2,7 +2,7 @@
   "name": "mugonat/service-container",
   "description": "That is a simple container service",
   "type": "library",
-  "version": "dev-0.0.1",
+  "version": "1.0.0",
   "minimum-stability": "stable",
   "license": "proprietary",
   "authors": [
